@@ -8,7 +8,7 @@ click = "*"
 requests = "*"
 distro = "*"
 "delegator.py" = ">=0.1.0"
-thoth-common = "*"
+thoth-common = {git = "https://github.com/harshad16/common.git",ref = "update/build-analyser"}
 
 [dev-packages]
 pytest = "*"
